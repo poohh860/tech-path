@@ -33,8 +33,33 @@
     margin-bottom: 15px;
 
   }
-  .container{
-    display:flex;
-    position:initial;
+  .container1{
+    display: flex;
+    justify-content:space-between;
+
+  }
+  .container2{
+    display: flex;
     align:center;
+    justify-content: space-evenly;
+  }
+  .container3{
+    display: flex;
+    justify-content:space-between;
+  }
+  .container4{
+    display: flex;
+    justify-content:left;
+  }
+  .container5{
+    display: flex;
+    justify-content:space-between;
+  }
+  .container6{
+    display: flex;
+    justify-content:space-evenly;
+  }
+  .container7{
+    display: flex;
+    justify-content:right;
   }
