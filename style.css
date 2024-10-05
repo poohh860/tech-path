@@ -54,7 +54,6 @@ body{
   }
   .container2{
     display: flex;
-    align:center;
     justify-content: space-evenly;
   }
   .container3{
