@@ -2,6 +2,7 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  gap: 10px;
 }
 
 body {
@@ -71,6 +72,7 @@ body {
   width: fit-content;
   padding: 10px;
   border-radius: 20px;
+  
 }
 
 /* card-1 start */
@@ -87,15 +89,16 @@ body {
   width: 100%;
 }
 
-.card_1 .img_holder {
-  background-color: black;
+.card .img_holder {
   overflow: hidden;
+  height: 100%;
+  width: 100%;
 
 }
 
-.card_1 .img_holder img {
-  object-fit: cover;
-}
+.card .img_holder img {
+  object-fit:contain;
+  }
 
 /* card-1 end */
 
