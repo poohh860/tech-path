@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+ .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+ }
+
+/*rightside */
+.contact{
+    padding-top: 50px;
+    right: 20%;
+    left: 10%;
+}
+.scal{
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+/* leftside */
+.information{
+    margin-left:100px;
+}
+.strln{
+    margin-left: 100px;
+}
+.info{
+    margin-left: 100px;
+}
